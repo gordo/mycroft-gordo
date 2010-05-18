@@ -1,12 +1,9 @@
-<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>Upcoming.org SF Bay Area</os:ShortName>
-<os:Description>Upcoming.org SF Bay Area</os:Description>
-<os:InputEncoding>ISO-8859-1</os:InputEncoding>
-<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAACTUlEQVQoz3VSS0wTURQ9pbY1LsCEdqY/2lKBVD4FW0jRSKII+Fm4MH4hBhIXRtduXBgXJsYQkFRIYWBKZ+hMBwoihhhMDCYuTNCwwLDRnTsSTZRPwAVpr29s02DQ5LyXd987576bew80m5lh0pqHVmr657kA6GzOotlMe2AunHWZzaTYDaqjKGUvUjggd6XyhiQPtqu8UeVYaGQhA3ti+7gHr04cHndDdkEnJR1IePGlK7TUWik7EXdh+qjla2dLwg4Wyj5sPbz4qSew2u1fumSF5IZUhY2+Nkr1qNWGsTLMnjLRaPfC8VLRDTGA7SdnKNa1fMu7PnCM5s8j0YDdoXaav5K8gGgl3l8todlrizfNg37IQWz2Nq09qotWYCCAxdvIPPdjUwnQ2/aP9yz9YazeB82F1vr43losXEc2XkvxyLNqCBUYb8B2nN9ULaA39TTfuCOEfsXq6EWAXpZnJ70bgpVmqrNS1a4QFMN43Y7M0yZKh37EikHTEVJaPt/1ymFQopHxvgsWmvFlxLDYhK3+GlLbSDmXjZ78cKNk6Agg1uk/CmUYLUcsiEQrfgrFlKpRIxjxY7QKU82Q6jHowZgbrLNIOnUodkgeSI3YGfaSFpnrAGvXhD3/WuCw+eQHp/GQvVh/7Cet+d1lw7AHbDj7faFbgy2Vx4QLK51WSp1euXNoxK2zNc6Yd5RtnyDlgFwG6j377UFN1AdJz30wbTWn/xZM2Sx5gcYZFAeWO3yiCwmnXujkH3b6fyWx35kNdbdxB1QunzInyGXdi98FCAVHVd0MPgAAAABJRU5ErkJggg==</os:Image>
-<UpdateInterval>7</UpdateInterval>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/upcomingorg-sf.xml</UpdateUrl>
-<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/upcomingorg-sf.png</IconUpdateUrl>
-<SearchForm>http://upcoming.yahoo.com/search/?type=Events&amp;rt=1&amp;q=&amp;loc=San+Francisco+Bay+Area</SearchForm>
-<os:Url type="text/html" method="GET" template="http://upcoming.yahoo.com/search/?type=events&amp;rt=1&amp;q={searchTerms}&amp;loc=San+Francisco+Bay+Area">
-</os:Url>
-</SearchPlugin>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Upcoming SF Bay</ShortName>
+<Description>Upcoming.org SF Bay Area Event Search</Description>
+<InputEncoding>utf-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAACTUlEQVQoz3VSS0wTURQ9pbY1LsCEdqY/2lKBVD4FW0jRSKII+Fm4MH4hBhIXRtduXBgXJsYQkFRIYWBKZ+hMBwoihhhMDCYuTNCwwLDRnTsSTZRPwAVpr29s02DQ5LyXd987576bew80m5lh0pqHVmr657kA6GzOotlMe2AunHWZzaTYDaqjKGUvUjggd6XyhiQPtqu8UeVYaGQhA3ti+7gHr04cHndDdkEnJR1IePGlK7TUWik7EXdh+qjla2dLwg4Wyj5sPbz4qSew2u1fumSF5IZUhY2+Nkr1qNWGsTLMnjLRaPfC8VLRDTGA7SdnKNa1fMu7PnCM5s8j0YDdoXaav5K8gGgl3l8todlrizfNg37IQWz2Nq09qotWYCCAxdvIPPdjUwnQ2/aP9yz9YazeB82F1vr43losXEc2XkvxyLNqCBUYb8B2nN9ULaA39TTfuCOEfsXq6EWAXpZnJ70bgpVmqrNS1a4QFMN43Y7M0yZKh37EikHTEVJaPt/1ymFQopHxvgsWmvFlxLDYhK3+GlLbSDmXjZ78cKNk6Agg1uk/CmUYLUcsiEQrfgrFlKpRIxjxY7QKU82Q6jHowZgbrLNIOnUodkgeSI3YGfaSFpnrAGvXhD3/WuCw+eQHp/GQvVh/7Cet+d1lw7AHbDj7faFbgy2Vx4QLK51WSp1euXNoxK2zNc6Yd5RtnyDlgFwG6j377UFN1AdJz30wbTWn/xZM2Sx5gcYZFAeWO3yiCwmnXujkH3b6fyWx35kNdbdxB1QunzInyGXdi98FCAVHVd0MPgAAAABJRU5ErkJggg==</Image>
+<moz:SearchForm>http://upcoming.yahoo.com/search/?type=Events&amp;rt=1&amp;q=&amp;loc=San+Francisco+Bay+Area</moz:SearchForm>
+<Url type="text/html" method="GET" template="http://upcoming.yahoo.com/search/?type=events&amp;rt=1&amp;q={searchTerms}&amp;loc=San+Francisco+Bay+Area" />
+</OpenSearchDescription>
