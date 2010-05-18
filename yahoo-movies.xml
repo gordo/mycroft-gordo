@@ -1,12 +1,9 @@
-<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>Yahoo! Movies</os:ShortName>
-<os:Description>Yahoo! Movies</os:Description>
-<os:InputEncoding>ISO-8859-1</os:InputEncoding>
-<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAABR0lEQVR42mL8//8/AyUAIICYGCgEAAFEsQEAAcT4VUwMpx+4X71SBVIvgPgLLjUAAcQCVCQJpA2ABm2HamqBavoKFLuNbiBM7AkXF4P6gweqAAHEBDX9DlDSEyQBVFADVQ8Ss/3+6xfDxVevYAYbwDS/ffAAxHQHCCBkC3iA2OYpA8M3qLesjzEw/AdhIHs2EDeD5EFyULHNQFwOEEDIgQhyyQVpBgYXroAAhjcCAkdAglYMDBUg1wDxTpA8knqQNy8CBBALWpiADLmIJiaBpPkLNGDdYd4ECCBs0fgVRHB++MCAZtsXqPNBgXgXiI+CxAECCEXnGaDfvqLhM1AMlFZBCpNsEB+kByCAGLE4FxTSylA2D9RbL6C2gtj6ULUgb90BCCB0A3iQNDJgCZ8vSHJgbwEEECOlmQkggCjOCwABRLEBAAEGAN5Qd8Q9X26eAAAAAElFTkSuQmCC</os:Image>
-<UpdateInterval>7</UpdateInterval>
-<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/yahoo-movies.xml</UpdateUrl>
-<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/yahoo-movies.png</IconUpdateUrl>
-<SearchForm>http://movies.yahoo.com/mv/advsearch/</SearchForm>
-<os:Url type="text/html" method="GET" template="http://movies.yahoo.com/mv/search?p={searchTerms}&amp;cv=d&amp;b=1&amp;sourceid=Mozilla-search">
-</os:Url>
-</SearchPlugin>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Yahoo! Movies</ShortName>
+<Description>Yahoo! Movies Film Titles Search</Description>
+<InputEncoding>utf-8</InputEncoding>
+<Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAU5JREFUeNpi%2FP%2F%2FPwMlgHHADWBhZGQEM6oZZioAqXwgNgBiB6j8ASC%2BAMQTWxnSH4AEQBbWMM6C2XqBCUTWssxuBFL3gbgASTMDlA0Suw%2B0oB%2BLAwRYgBIB%2F%2F78q0ve58Og6CgFFr2%2F%2FxnD1sLjDC8uvkVWXABU%2BxBIT0ASA7sAbPIC920M6xIPQAw4%2BBysufxZDEPL%2FzSG3MuhDCzszCCpejQXHGQBEiC%2FM%2Fz9%2FY%2Fh3IJbDAr2UgxODcYMz4EG8EpyMWwvOs5wtP8y3MloBhxgQfcUyBXSJqIM0evdGPY1nEXWjAGAAQv2wgd0iatr7oHpfY1n0aWQ1YL9CzJgIrIKUGCapmuC2SC%2FO9UbI0svgNKOQJwIilJGaBqYD6QSCKQZkI2BwED9AE0HD4BsRSaoXxJBJkITDToAiSUC1TgC8QcksYWDIy9QbABAgAEAjcyBZYQP30IAAAAASUVORK5CYII%3D</Image>
+<moz:SearchForm>http://movies.yahoo.com/mv/advsearch/</moz:SearchForm>
+<Url type="text/html" method="GET" template="http://movies.yahoo.com/mv/search?p={searchTerms}&amp;cv=d&amp;b=1&amp;sourceid=Mozilla-search" />
+</OpenSearchDescription>
