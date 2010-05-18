@@ -20,7 +20,7 @@ Category reshuffling to "Arts & Media - Film, TV & Video" category: http://web.a
 
 
 ------------------------------------------
-Apple Dashboard Widgets
+Apple Dashboard Widgets (Apple removed search functionality from widgets section)
 ------------------------------------------
 Created: August 18, 2005 (http://mycroft.mozdev.org/search-engines.html?name=apple)
 
@@ -53,14 +53,14 @@ Last recorded verification: September 2, 2009
 
 
 ------------------------------------------
-Yahoo! Glue
+Yahoo! Glue (Yahoo! possibly shut down Glue, as everything redirects to main page now)
 ------------------------------------------
 Created: November 21, 2008
 http://mycroft.mozdev.org/yahoo-search-plugins.html
 
 
 ------------------------------------------
-Yahoo! Meme
+Yahoo! Meme (requires being logged in)
 ------------------------------------------
 Created: October 29, 2009
 http://mycroft.mozdev.org/yahoo-search-plugins.html
