@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Yahoo! Movies</os:ShortName>
+<os:Description>Yahoo! Movies</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAABR0lEQVR42mL8//8/AyUAIICYGCgEAAFEsQEAAcT4VUwMpx+4X71SBVIvgPgLLjUAAcQCVCQJpA2ABm2HamqBavoKFLuNbiBM7AkXF4P6gweqAAHEBDX9DlDSEyQBVFADVQ8Ss/3+6xfDxVevYAYbwDS/ffAAxHQHCCBkC3iA2OYpA8M3qLesjzEw/AdhIHs2EDeD5EFyULHNQFwOEEDIgQhyyQVpBgYXroAAhjcCAkdAglYMDBUg1wDxTpA8knqQNy8CBBALWpiADLmIJiaBpPkLNGDdYd4ECCBs0fgVRHB++MCAZtsXqPNBgXgXiI+CxAECCEXnGaDfvqLhM1AMlFZBCpNsEB+kByCAGLE4FxTSylA2D9RbL6C2gtj6ULUgb90BCCB0A3iQNDJgCZ8vSHJgbwEEECOlmQkggCjOCwABRLEBAAEGAN5Qd8Q9X26eAAAAAElFTkSuQmCC</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/yahoo-movies.xml</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/updateos.php/id0/yahoo-movies.png</IconUpdateUrl>
+<SearchForm>http://movies.yahoo.com/mv/advsearch/</SearchForm>
+<os:Url type="text/html" method="GET" template="http://movies.yahoo.com/mv/search?p={searchTerms}&amp;cv=d&amp;b=1&amp;sourceid=Mozilla-search">
+</os:Url>
+</SearchPlugin>

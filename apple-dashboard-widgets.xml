@@ -1,0 +1,12 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Apple Dashboard Widgets</os:ShortName>
+<os:Description>Apple Dashboard Widgets</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAABmklEQVR42mKcOXMmAw7w+/dvRkZGFhYWZEGAAGLCqvT//////v3T0tJSUFD48+cPshRAAGHX8PfvXxMTE0dHR0FBQaBOZCmAAGJBUwc0D0gKCQkZGRk9e/bs4sWLEAuBboOoAQgghAagUqB5SkpKQPa7d++uXr0K9IOxsfH79+8fPHgA1wMQQCxw1dLS0q6urlxcXBDur1+/IGwgOHXq1JkzZyC+BwggFoiNQI65uTlcBQsYQNjfvn179OgRExPUtwABxATRAFQqIiKCNQCuXbv2/PlzuAaAAIJRTEy4YgPoNqCJcC5AADHB/QAMHKwaVFRUODk54YELEEAgDUDvf//+/dWrV1g1iImJubm5MTMzQ+wBCCCoBqANt2/fxuUqDg4OuKsAAogJHix37twBxhSmaqBjTp48CTQREg8AAQTVAOQA/XDw4MHXr18DfXn//v3Lly9//PgRyAaqfvLkCTyUAQIIEdNAV3748GHjxo1AuR8/fgD1A/0KDD0gGygFVwYQQChpCSgBSU5AC1lZWYFJA+h0tBAHCDAAOnPB+jiGopgAAAAASUVORK5CYII=</os:Image>
+<UpdateInterval>7</UpdateInterval>
+<UpdateUrl>http://mycroft.mozdev.org/update.php/id0/applewidgets.src</UpdateUrl>
+<IconUpdateUrl>http://mycroft.mozdev.org/update.php/id0/applewidgets.png</IconUpdateUrl>
+<SearchForm>http://searchcgi.apple.com/cgi-bin/sp/nph-sptlt</SearchForm>
+<os:Url type="text/html" method="GET" template="http://searchcgi.apple.com/cgi-bin/sp/nph-sptlt?access=p&amp;lr=lang_en&amp;oe=utf-8&amp;site=osx_downloads_dashboard&amp;filter=0&amp;client=osx_downloads_frontend&amp;getfields=Description&amp;q={searchTerms}">
+</os:Url>
+</SearchPlugin>
